@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_cesar"
+        android:orderInCategory="100"
+        android:title="Cipher(Cesar)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nav_decipher"
+        android:orderInCategory="100"
+        android:title="Decipher(Cesar)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nav_viginere"
+        android:orderInCategory="100"
+        android:title="Cipher(Viginere)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nav_viginere_decipher"
+        android:orderInCategory="100"
+        android:title="Decipher(Viginere)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/nav_rsa"
+        android:orderInCategory="100"
+        android:title="RSA"
+        app:showAsAction="never"/>
+
+</menu>
